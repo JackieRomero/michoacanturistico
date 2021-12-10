@@ -1,0 +1,20 @@
+
+INICIALIZAR EL PROYECTO O REPOSITORIO(esto se hace en cada proyecto, para inicializarlo solo una vez ): git init
+CREAR UN ARCHIVO , .gitignore EN DONDE VAS A BLOQUEAR EL NODE MODULES PARA QUE NO SE SUBA A  GIT -------> /node_modules
+SIRVE PARA AGREGAR A LA MEMORIA STAGE TODOS LOS ARCHIVOS MODIFICADOS: git add .
+PARA GUARDAR LOS CAMBIOS: git commit -m "Es es el commit inicial"
+
+SIRVE PARA VER LOS PROCESOS QUE SE AN ECHO Y QUE USUARIOS LO HICIERON VER LOS CAMBIOS REALIZADOS: git log
+SIRVE PARA VER LOS LOG DE MANERA BONITA DE MANERA MAS GRAFICA: git log --all --decorate --oneline --graph
+CREAR UN NUEVO PROYECTO EN LA PAGINA DE GIT EN EL NAVEGADOR 
+
+ESTA ES PARA AGREAGR EL ORIEGN REMOTO LO QUE ESTA EN L APAGINNA: git remote add origin https://github.com/jairoMorales21/devteam.git
+VER  LOS REPOSITORIOS REMOTOS:git remote -v
+
+SUBIR TODOS LOS ARCHIVOS AL REPOSITORIO: git push -u origin master(por el momento solo existe la master aqui va la rama que queremos agregar)
+Escribimos el usuario
+Esvcribimos la Contraseña
+
+
+ESTE PARA GACER CLONE DEL PROYECTO QUE CLONO MI  COMPAÑERO: git clone https://github.com/jairoMorales21/AnimalsInDanger.git
+
